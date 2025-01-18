@@ -1,0 +1,92 @@
+body {
+    background-color: var(--background-color);
+    height: 100vh;
+    font-family: "Kumbh Sans", serif;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 350px;
+    height: 375px;
+    border-radius: 5%;
+}
+
+.container .card .profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background: linear-gradient(to bottom, hsl(185, 80%, 29%) 50%, #fff 50%);
+    position: relative;
+    border-radius: 5%;
+    height: 290px;
+}
+
+.container .card .profile-card img {
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    position: absolute;
+    top: 85px;
+}
+
+.container .card .profile-card .name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+}
+
+.container .card .profile-card .name .city {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.age {
+    margin-left: 8px;
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.social-card {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 40px;
+}
+
+.social-card li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-card li p {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.social-card li span {
+    font-size: 14px;
+    color: var(--text-color);
+}
+
